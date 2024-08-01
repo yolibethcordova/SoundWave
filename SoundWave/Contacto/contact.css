@@ -173,23 +173,3 @@ svg:hover {
   .round-img {
     border-radius: 100%;
   }
-
-  /* Asegúrate de que los íconos tengan el mismo tamaño y estén alineados correctamente */
-.icons {
-    font-size: 30px; /* Ajusta el tamaño de los íconos según tus necesidades */
-    margin: 0 15px; /* Añade margen entre los íconos para separarlos */
-    transition: color 0.3s ease; /* Añade una transición suave para el cambio de color en hover */
-}
-
-/* Asegúrate de que los íconos cambien de color al pasar el mouse */
-.icons:hover {
-    color: #B59CFE;
-}
-
-/* Si tienes un contenedor específico para los íconos, asegúrate de que se alineen correctamente */
-.icon-container {
-    display: flex;
-    justify-content: center; /* Centra los íconos horizontalmente */
-    gap: 20px; /* Añade espacio entre los íconos */
-    margin-top: 20px; /* Ajusta el margen superior según el diseño */
-}
