@@ -1,0 +1,409 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+#navbar-text {
+    color: #AACA45;
+    font-size: 18px;
+}
+#navbar-text:hover {
+    color: #B59CFE;
+    font-size: 18px;
+}
+#navbar-text-title {
+    color: #AACA45;
+    font-size: 20px;
+}
+#post-form {
+    color: #AACA45;
+    border:1px solid #AACA45;
+}
+#post-form p {
+    color: white;
+}
+
+#menu-icon {
+    color: #AACA45;
+}
+#menu-icon:hover {
+    color: #B59CFE;
+}
+
+body {
+    background-color: rgba(32, 26, 50, 0.945);
+}
+.preloader {
+    background-color: #201A32;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.loader {
+    height: 160px;
+    width: 160px;
+    transition: all 0.5s;
+}
+.form-inline {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align:center;
+    width: 20%;
+
+  }
+
+.form-control {
+    color:#201A32; /* Cambia el color del texto del input */
+    background-color: #201A32; /* Cambia el color de fondo del input */
+    border: 1px solid #AACA45; /* Cambia el color del borde del input */
+  }
+
+nav {
+    background-color: #201A32;
+    color: #AACA45;
+    margin-bottom: 5rem;
+}
+main {
+    margin-bottom: 15rem;
+}
+h1 {
+    color: #AACA45;
+}
+h2 {
+    color: #AACA45;
+}
+
+@media (max-width: 991px){
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(20px);
+    }
+}
+.profile-image {
+    height: 5%;
+    width: 25%;
+    border-radius: 50%;
+    border: 3px solid #268fbe;
+}
+
+.offcanvas {
+    color: #AACA45;
+}
+
+#post-form {
+    width: 90%;
+    max-width: 650px;
+    align-items: center;
+}
+
+#name {
+    height: 3rem;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+#name:hover {
+    border: none;
+    height: 3rem;
+    color: white;
+    background-color: transparent;
+}
+#message {
+    border: none;
+    margin-bottom: 1rem;
+    height: 10rem;
+    color: white;
+    background-color: transparent;
+}
+#message:hover {
+    height: 10rem;
+
+}
+#btn {
+    width: 100px;
+    justify-content: end;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    height: 3rem;
+    border:1px solid #AACA45;
+    color: white;
+    background-color: #AACA45;
+    font-size: 20px;
+}
+#btn:hover {
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    height: 3rem;
+    border:1px solid #B59CFE;
+    color: #B59CFE;
+    background-color: transparent;
+}
+
+
+#title-desc {
+    font-size: 35px;
+}
+#description {
+    font-size: 24px;
+}
+#cards {
+    margin-bottom:5rem;
+}
+
+
+.card,.card-body,.bg-image {
+    background-color:#AACA45(32, 26, 50);
+    color: white;
+    height: auto; 
+    width: 1500%;
+    max-width: 600px;
+}
+
+.card {
+    background-color: rgb(32, 26, 50);
+    color: white;
+    height: 35rem;
+}
+
+
+@media (max-width: 768px) {
+    .card,.card-body,.bg-image {
+        width: 280%; /* Hacer la tarjeta un poco más estrecha en pantallas pequeñas */
+    }
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .card,.card-body,.bg-image{
+        width: 100%; /* Hacer la tarjeta ocupar el 100% del contenedor padre */
+        
+    }
+}
+.icons:hover {
+    color:#B59CFE
+}
+
+footer h2 {
+    color: #AACA45;
+    font-size: 24px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#navmenu-app {
+    color: white;
+}
+#navmenu-item:hover {
+    color: #B59CFE;
+}
+
+svg{
+    color: white;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+svg:hover {
+    color: #e8e9ea;
+    }
+    .bi {
+    color: #268fbe;
+    }
+    .bi:hover {
+    color: #e8e9ea;
+    }
+
+#sub {
+    margin-right: 6rem;
+}
+
+#subButton {
+    border-radius: 1.5rem;
+    border-color: #AACA45;
+    border-style: solid;
+    background: transparent;
+    color: #AACA45;
+    padding: .2rem .5rem;
+    
+}
+
+#subButton:hover {
+    border-radius: 1.5rem;
+    border-color: #AACA45;
+    border-style: solid;
+    background:#AACA45;
+    color: white;
+    padding: .2rem .5rem;
+}
+
+#subInput {
+    border-radius: 1.5rem;
+    border-style: none;
+    background-color: rgb(204, 204, 204);
+    padding: .2rem .5rem;
+
+}
+#subInput:hover {
+    background-color: rgb(158, 158, 158);
+
+}
+/* post */
+#sharedPost {
+    color: #AACA45; 
+    margin-top: 5rem;
+}
+#sharedPost div {
+    color: white; 
+    text-align: center;
+}
+#sharedPost button {
+    color: #268FBE;
+    background-color: transparent;
+    border-style: none;
+}
+#sharedPost button:hover {
+    color: #8c8c8c;
+    background-color: transparent;
+    border-style: none;
+}
+/* esto es para spotify y las fficaciones */
+.spotify-player {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+}
+
+.notify {
+    position: relative; /* Cambiado de absolute a relative para que el pseudoelemento se posicione correctamente */
+    display: inline-block;
+}
+  
+.notify::before {
+    content: attr(data-count);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 4px 9px;
+    background: linear-gradient(#ff1a1a, #ff0000, #e60000);
+    border-radius: 50%;
+    line-height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    transition: opacity 0.1s ease-out; /* Corregido a 'opacity' */
+    opacity: 1; /* Asegura que el pseudoelemento sea visible */
+}
+  a{
+    color: #AACA45;     
+    top: -10px;
+    right: -60px;
+    font-size: 18px;
+    color: #e8e9ea;
+    }
+.sidebarDerecha {
+   background-color: #211b32;
+   border-radius: 2%;
+   margin-right: 5%;
+   padding: 50px;
+}
+.sidebarIzquierda {
+    padding: 10px;
+    width: 60%;
+    background-color: #211B32;
+    border-radius: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 15rem;
+}
+#exampleModalLabel{
+    color: #211B32;
+}
+
+.btnFriends {
+    background-color: #268FBE;
+}
+#btn-close {
+    background-color: #268FBE;
+}
+.modal-content {
+    background-color: #AACA45; /* Cambia esto al color de fondo que desees */
+    color: #211B32;
+}
+.modal-body {
+    padding: 15px; /* Espacio interior del modal-body */
+}
+#addfriends img {
+    margin: 25px; /* Espacio entre las imágenes y el borde */
+    max-width: 80%; /* Asegura que las imágenes no se salgan del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+#spotifyURL{
+    background-color: #AACA45; 
+    font-size: 20px;
+    color: #211B32;
+    }
+/* Estilo del formulario para centrarlo */
+.form-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/* Estilo de la barra de búsqueda */
+.form-control {
+    width: 250px; /* Ajusta el ancho de la barra de búsqueda */
+    padding: 8px 12px; /* Ajusta el padding para hacerla más delgada */
+    border-radius: 20px; /* Redondea los bordes */
+    border: 1px solid #AACA45;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-right: 8px; /* Espacio entre la barra de búsqueda y el botón */
+}
+/* Estilo del botón */
+.btn-outline-success {
+    border-radius: 20px; /* Redondea los bordes del botón */
+}
+/* Estilo adicional para el foco */
+.form-control:focus {
+@media (max-width: 768px) {
+    .title-desc {
+        font-size: 1.5em;
+    }
+    .container {
+        width: 95%;
+    }
+    ul.list {
+        padding-left: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .title-desc {
+        font-size: 1.2em;
+    }
+    figcaption.blockquote-footer {
+        font-size: 0.7em;
+    }
+    .container {
+        width: 100%;
+        margin-left: 250px;
+    }
+}}
+
